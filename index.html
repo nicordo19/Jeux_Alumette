@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jeu des alumettes</title>
     <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
+    <script defer src="scrypt.js"></script>
   </head>
   <body>
     <center>
       <div>
-        <div>
-          <h2>Qui prendra le plus d'allumettes ?</h2>
-          <p>A vos marque...!</p>
-          <p>pret ?</p>
-          <p>Commencez !</p>
+        <div id="question">
+          <h2 id="message">Qui prendra le plus d'allumettes ?</h2>
+          <p id="message">A vos marque...!</p>
+          <p id="message">pret ?</p>
+          <p id="message">Commencez !</p>
         </div>
-        <form name="frm">
-          <div id="Allumettes"></div>
-          <br /><br />
+        <div id="Allumettes"></div>
+        <br /><br />
+        <div class="priseAllumette">
           <p>Combien prenez vous d'allumette ?</p>
-          <div id="button"></div>
-        </form>
-        <img src="allumette_active.PNG" alt="image d'une allumette" />
+        </div>
+        <br />
+        <button>bouton1</button>
+        <button>bouton2</button>
+        <button>bouton3</button>
+
+        <img
+          src="allumette_active.PNG"
+          alt="image d'une allumette"
+          class="imagecorige"
+        />
       </div>
     </center>
   </body>
