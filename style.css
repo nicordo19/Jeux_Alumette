@@ -1,0 +1,23 @@
+#question {
+  color: rgb(24, 18, 181);
+  background-color: rgba(73, 242, 11, 0.213);
+  border: 5px solid rgba(14, 24, 220, 0.725);
+  box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.738);
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px rgba(34, 7, 117, 0.681);
+}
+.priseAllumette {
+  width: 300px;
+  color: rgb(24, 18, 181);
+  background-color: rgba(73, 242, 11, 0.213);
+  border: 5px solid rgba(14, 24, 220, 0.725);
+  box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.738);
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px rgba(34, 7, 117, 0.681);
+}
+
+.imagecorige {
+  width: 20px;
+  height: 10%;
+  border: 1px solid #333;
+}

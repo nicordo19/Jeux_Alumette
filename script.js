@@ -1,5 +1,5 @@
 function allumetteAEnlever() {
-  let totalAllumettes = 500;
+  let totalAllumettes = 50;
   let joueurs = [];
   let nombreJoueurs = Number(prompt("Combien de joueurs vont participer ?"));
 
@@ -16,6 +16,7 @@ function allumetteAEnlever() {
       joueurs.push(nomJoueur); // Ajoute le joueur au tableau
     }
   }
+  console.log(nombreJoueurs);
 
   // Vérifie qu'il y a bien des joueurs
   if (joueurs.length === 0) {
